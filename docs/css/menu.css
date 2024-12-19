@@ -1,0 +1,101 @@
+body {
+    margin: 0; /* Rimuove margini predefiniti del browser */
+    display: flex; /* Usa Flexbox */
+    flex-direction: column; /* Imposta la direzione del layout (colonna) */
+    height: 100%; /* Imposta l'altezza della viewport */
+}
+
+main{
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header-logo {
+    width: 40px;
+    height: auto;
+    border: 1px solid #fff;
+}
+
+.header-title {
+    width: 100%; /* Occupa tutto lo spazio orizzontale */
+    background-color: #00396a;
+    display: flex; /* Usa Flexbox per allineare contenuto */
+    justify-content: space-between; /* Allinea gli elementi orizzontalmente */
+    align-items: center; /* Allinea gli elementi verticalmente */
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+
+nav {
+    background-color: #00396a;
+    display: flex;
+    justify-content: space-between; /* Distribuisce lo spazio tra gli elementi */
+    align-items: center; /* Allinea verticalmente al centro */
+}
+
+.nav-item {
+    display: block;  /* Assicurati che il div occupi l'intero spazio */
+    flex: 1;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+
+.nav-item a {
+    display: block;  /* Rende il link un blocco per occupare l'intero spazio */
+    width: 100%;     /* Garantisce che il link occupi tutta la larghezza del div */
+    height: 100%;    /* Può essere utile per rendere il link cliccabile anche verticalmente */
+    text-decoration: none;  /* Rimuove la sottolineatura */
+    color: inherit;  /* Rende il colore del testo ereditato dal div */
+}
+
+.nav-item a:active, a:focus, a:hover {
+    color: inherit;
+}
+
+
+.active {
+    background-color: white;
+    font-weight: bold;
+    color: #00396a;
+}
+
+.nav-link {
+    color: white;
+}
+
+footer {
+    background-color: #00396a;
+    color: white;
+    width: 100%; /* Occupa tutta la larghezza */
+}
+
+.footer-content {
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 20px;
+    padding-left: 10px;
+    bottom: 0px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-link:hover .logo {
+    transform: scale(1.1);
+}
