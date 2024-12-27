@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+main{
+    overflow: auto;
+    font-size: 15px;
+    font-family: "Montserrat:ital",sans-serif;
+    display: flex;
+   
+}
+
+.container{
+   flex: 5;
+}
+
+.sidebar{
+    position: sticky; /* Sidebar fissa rispetto al contenitore */
+    top: 0; /* Posizionamento rispetto al contenitore */
+    /*height: 100vh; /* Occupa il viewport del contenitore */
+    margin-left: 1px;
+    background-color: #00396a;
+    color: white;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+.sidebar-content{
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center;
+    color: white;
+    flex: 1;
+    cursor: pointer; 
+}
+.sidebar-active{
+    color: #00396a;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.sidebar-content:hover{
+    background-color: #005ea6;
+}
+
+.sidebar-active:hover{
+   background-color: white;
+}
+
+.disactive{
+    display: none;
+}
+
+.myDiv{
+    padding: 20px;
+}
+
+.myDiv p{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 50px;
+    color: #00396a;
+    font-family: "Bebas Neue",sans-serif;
+}
+
+h2{
+    color: #00396a;
+    font-family: "Bebas Neue",sans-serif;
+}
+
+h2:hover{
+    color: #005ea6;
+}
+h1:hover{
+    color:#005ea6;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:active, a:focus, a:hover {
+    color: inherit;
+    cursor: pointer;
+}
+
+
