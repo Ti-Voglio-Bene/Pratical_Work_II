@@ -9,14 +9,14 @@ main{
    
 }
 
+
 .container{
    flex: 5;
 }
 
 .sidebar{
-    position: sticky; /* Sidebar fissa rispetto al contenitore */
-    top: 0; /* Posizionamento rispetto al contenitore */
-    /*height: 100vh; /* Occupa il viewport del contenitore */
+    position: sticky;
+    top: 0;
     margin-left: 1px;
     background-color: #00396a;
     color: white;

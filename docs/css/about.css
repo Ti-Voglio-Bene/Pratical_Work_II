@@ -40,3 +40,20 @@ h2{
     border: 5px solid;
     border-color: #00396a;
 }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #00396a;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {
+    color: white;
+    background-color: #005ea6;
+}

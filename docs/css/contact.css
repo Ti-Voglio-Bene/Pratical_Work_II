@@ -8,8 +8,8 @@
 
 .form-group {
     display: flex;
-    align-items: center; /* Allinea verticalmente */
-    gap: 10px; /* Spazio tra l'etichetta e il campo */
+    align-items: center;
+    gap: 10px;
 }
 
 h1 {
